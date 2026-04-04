@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border CSS Properties Practicing</title>
+    <style>
+        .border{
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+            margin-left: 50px;
+            background-color: gray;
+        }
+        .border-solid{
+            border: 10px solid rgba(58, 172, 180, 0.952);
+        }
+        .border-dotted{
+            border: 10px dotted rgba(58, 172, 180, 0.952);
+        }
+        .border-dashed{
+            border: 10px dashed rgba(58, 172, 180, 0.952);
+        }
+        .border-double{
+            border: 10px double rgba(58, 172, 180, 0.952);
+        }
+        .border-groove{
+            border: 10px groove rgba(58, 172, 180, 0.952);
+        }
+        .border-ridge{
+            border: 10px ridge rgba(58, 172, 180, 0.952);
+        }
+        .border-radius{
+            border: 10px solid rgba(58, 172, 180, 0.952);
+            border-radius: 10px;
+        }
+        .border-radius-one{
+            border-radius: 15px 50px 30px 5px;
+        }
+        .border-radius-two{
+            border-radius: 15px 50px 30px;
+        }
+        .border-radius-three{
+            border-radius: 15px 50px;
+        }
+        .border-radius-four{
+            background-image: linear-gradient(45deg, #3023AE 0%, #FF0099 100%);
+            border-radius: 46% 54% 70% 30% / 52% 25% 75% 48%;
+        }
+        .border-radius-five{
+            background-image: linear-gradient(45deg, #3023AE 0%, #FF0099 100%);
+            border-radius: 50% 50% 0% 0% / 100% 100% 0% 0%;
+        }
+        .top-border{
+            border-top: 10px solid black;
+        }
+        .bottom-border{
+            border-bottom: 10px double black;
+        }
+        .left-border{
+            border-left: 10px dotted black;
+        }
+        .right-border{
+            border-right: 10px solid black;
+        }
+        .border-start-end-radius-one{
+            border-inline-start: 30px solid black;
+            border-start-start-radius: 50%;
+            border-end-start-radius: 50%;
+        }
+        .border-start-end-radius-two{
+            border-inline-end: 30px solid black;
+            border-start-end-radius: 50%;
+            border-end-end-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Border CSS Properties Practicing</h1>
+    <br>
+    <br>
+    <h2>Solid Border</h2>
+    <div class="border-solid border">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, obcaecati voluptatibus laudantium quibusdam aperiam nesciunt beatae reprehenderit quam quaerat tenetur earum quis accusamus commodi hic accusantium corrupti ullam exercitationem magni rem consequatur neque possimus quod dolorem pariatur? Rem obcaecati aperiam voluptates mollitia alias voluptate, itaque fugiat, quo, sapiente nemo saepe.
+    </div>
+    <br>
+    <br>
+    <h2>Dotted Border</h2>
+    <div class="border-dotted border">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, obcaecati voluptatibus laudantium quibusdam aperiam nesciunt beatae reprehenderit quam quaerat tenetur earum quis accusamus commodi hic accusantium corrupti ullam exercitationem magni rem consequatur neque possimus quod dolorem pariatur? Rem obcaecati aperiam voluptates mollitia alias voluptate, itaque fugiat, quo, sapiente nemo saepe.
+    </div>
+    <br>
+    <br>
+    <h2>Dashed Border</h2>
+    <div class="border-dashed border">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, obcaecati voluptatibus laudantium quibusdam aperiam nesciunt beatae reprehenderit quam quaerat tenetur earum quis accusamus commodi hic accusantium corrupti ullam exercitationem magni rem consequatur neque possimus quod dolorem pariatur? Rem obcaecati aperiam voluptates mollitia alias voluptate, itaque fugiat, quo, sapiente nemo saepe.
+    </div>
+    <br>
+    <br>
+    <h2>Double Border</h2>
+    <div class="border-double border">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, obcaecati voluptatibus laudantium quibusdam aperiam nesciunt beatae reprehenderit quam quaerat tenetur earum quis accusamus commodi hic accusantium corrupti ullam exercitationem magni rem consequatur neque possimus quod dolorem pariatur? Rem obcaecati aperiam voluptates mollitia alias voluptate, itaque fugiat, quo, sapiente nemo saepe.
+    </div>
+    <br>
+    <br>
+    <h2>Groove Border</h2>
+    <div class="border-groove border">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, obcaecati voluptatibus laudantium quibusdam aperiam nesciunt beatae reprehenderit quam quaerat tenetur earum quis accusamus commodi hic accusantium corrupti ullam exercitationem magni rem consequatur neque possimus quod dolorem pariatur? Rem obcaecati aperiam voluptates mollitia alias voluptate, itaque fugiat, quo, sapiente nemo saepe.
+    </div>
+    <br>
+    <br>
+    <h2>Ridge Border</h2>
+    <div class="border-ridge border">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, obcaecati voluptatibus laudantium quibusdam aperiam nesciunt beatae reprehenderit quam quaerat tenetur earum quis accusamus commodi hic accusantium corrupti ullam exercitationem magni rem consequatur neque possimus quod dolorem pariatur? Rem obcaecati aperiam voluptates mollitia alias voluptate, itaque fugiat, quo, sapiente nemo saepe.
+    </div>
+    <br>
+    <br>
+    <h2>Border Radius</h2>
+    <div class="border-radius border">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, obcaecati voluptatibus laudantium quibusdam aperiam nesciunt beatae reprehenderit quam quaerat tenetur earum quis accusamus commodi hic accusantium corrupti ullam exercitationem magni rem consequatur neque possimus quod dolorem pariatur? Rem obcaecati aperiam voluptates mollitia alias voluptate, itaque fugiat, quo, sapiente nemo saepe.
+    </div>
+    <br>
+    <br>
+    <div class="border-radius-one border">
+
+    </div>
+    <br>
+    <br>
+    <div class="border-radius-two border">
+
+    </div>
+    <br>
+    <br>
+    <div class="border-radius-three border">
+
+    </div>
+    <br>
+    <br>
+    <div class="border-radius-four border">
+
+    </div>
+    <br>
+    <br>
+    <div class="border-radius-five border">
+
+    </div>
+    <br>
+    <br>
+    <h2> Top Border</h2>
+    <div class="top-border border">
+        
+    </div>
+    <br>
+    <br>
+    <h2> Bottom Border</h2>
+    <div class="bottom-border border">
+        
+    </div>
+    <br>
+    <br>
+    <h2> Left Border</h2>
+    <div class="left-border border">
+        
+    </div>
+    <br>
+    <br>
+    <h2> Right Border</h2>
+    <div class="right-border border">
+        
+    </div>
+    <br>
+    <br>
+    <h2> Border-start-start-radius and Border-end-start-radius</h2>
+    <div class="border-start-end-radius-one border">
+        
+    </div>
+    <br>
+    <br>
+    <h2> Border-start-end-radius and Border-end-end-radius</h2>
+    <div class="border-start-end-radius-two border">
+        
+    </div>
+</body>
+</html>

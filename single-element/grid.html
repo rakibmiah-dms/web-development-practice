@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        .full-contrainer{
+            margin: 30px;
+            width: 80%;
+            background-color: rgb(47, 133, 161);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 80px 50px 100px 400px 80px;
+            gap: 10px;
+            text-align: center;
+            font-size: larger;
+            grid-template-areas: "header header header"
+                                  "menu menu menu"
+                                  "box1 box2 sidebar"
+                                  "content content sidebar"
+                                  "footer footer footer";
+        }
+        .contrainer{
+            background-color: lightgreen;
+        }
+        .header{
+            grid-area: header;
+        }
+        .menu{
+            grid-area: menu;
+        }
+        .box1{
+            grid-area: box1;
+        }
+        .box2{
+            grid-area: box2;
+        }
+        .sidebar{
+            grid-area: sidebar;
+        }
+        .content{
+            grid-area: content;
+        }
+        .footer{
+            grid-area: footer;
+        }
+        .grid2{
+            margin: 30px;
+            width: 80%;
+            background-color: blueviolet;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 200px 200px 200px;
+            gap: 10px;
+            font-size: x-large;
+            text-align: center;
+        }
+        .box{
+            background-color: aqua;
+        }
+        .one{
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid Practicing</h1>
+    <div class="full-contrainer">
+        <div class="contrainer header">Header</div>
+        <div class="contrainer menu">Menu</div>
+        <div class="contrainer box1">Box one</div>
+        <div class="contrainer box2">Box two</div>
+        <div class="contrainer sidebar">Sidebar</div>
+        <div class="contrainer content">Content</div>
+        <div class="contrainer footer">Footer</div>
+    </div>
+    <div class="grid2">
+        <div class="box one">One</div>
+        <div class="box two">Two</div>
+        <div class="box three">Three</div>
+        <div class="box four">Four</div>
+        <div class="box five">Five</div>
+        <div class="box six">Six</div>
+        <div class="box seven">Seven</div>
+        <div class="box eight">Eight</div>
+        <div class="box nine">Nine</div>
+    </div>
+</body>
+</html>

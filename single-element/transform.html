@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform CSS Property Practicing</title>
+    <style>
+        body{
+            margin: 50px;
+        }
+        .parent{
+            height: 300px;
+            width: 300px;
+            background-color: purple;
+            transform: rotateY(30deg);
+            transform-style: preserve-3d;
+        }
+        .chaild{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(33, 74, 128);
+            transform: rotateX(60deg);
+            transition: transform 4s ease-in;
+        }
+        .parent:hover .chaild{
+            transform: rotateX(720deg);
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 5px solid rgb(51, 102, 51);
+        }
+        .outer{
+            background-color: aquamarine;
+        }
+        .inner{
+            background-color: blueviolet;
+            transform: scale(.5);
+        }
+        .inner-two{
+            background-color: blueviolet;
+            transform: scale(.5) rotate(45deg);
+        }
+        .inner-three{
+            background-color: blueviolet;
+            transform: scale(.5) skew(10deg);
+        }
+        .inner-four{
+            background-color: blueviolet;
+            transform: scale(.5, 1.1);
+        }
+        .inner-five{
+            background-color: blueviolet;
+            transform: scale(1.1, .5);
+        }
+        .inner-six{
+            background-color: blueviolet;
+            transform: translate(150px);
+        }
+        .inner-seven{
+            background-color: blueviolet;
+            transform: translate(300px) skew(30deg);
+        }
+        .inner-eight{
+            background-color: blueviolet;
+            transform: translate(300px) rotate(45deg);
+        }
+        .inner-nine{
+            background-color: blueviolet;
+            transform: matrix(2, 1, 0.5, 1, 90, 70);
+        }
+        .inner-ten{
+            background-color: blueviolet;
+            transform: translate(150px, 150px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Transform CSS Property Practicing</h1>
+    <div class="parent">
+        <div class="chaild"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: scale(.5);</h2>
+    <div class="box outer">
+        <div class="box inner"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: scale(.5) rotate(45deg);</h2>
+    <div class="box outer">
+        <div class="box inner-two"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: scale(.5) skew(10deg);</h2>
+    <div class="box outer">
+        <div class="box inner-three"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: scale(.5, 1.1);</h2>
+    <div class="box outer">
+        <div class="box inner-four"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: scale(1.1, .5);</h2>
+    <div class="box outer">
+        <div class="box inner-five"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: translate(150px);</h2>
+    <div class="box outer">
+        <div class="box inner-six"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: translate(300px) skew(30deg);</h2>
+    <div class="box outer">
+        <div class="box inner-seven"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: translate(300px) rotate(45deg);</h2>
+    <div class="box outer">
+        <div class="box inner-eight"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: matrix(2, 1, 0.5, 1, 90, 70);</h2>
+    <div class="box outer">
+        <div class="box inner-nine"></div>
+    </div>
+    <br>
+    <br>
+    <h2>transform: translate(150px, 150px);</h2>
+    <div class="box outer">
+        <div class="box inner-ten"></div>
+    </div>
+</body>
+</html>

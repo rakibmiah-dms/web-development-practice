@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background CSS Practice</title>
+    <style>
+        .background-color{
+            width: 500px;
+            height: 200px;
+            border: 5px solid rgb(185, 252, 28);
+            padding: 20px;
+            background-color: rgb(80, 201, 161);
+        }
+        .background-image{
+            width: 1000px;
+            height: 300px;
+            border: 5px solid rgb(185, 252, 28);
+            padding: 20px;
+            background-image: url(Images/Profile\ 1.png);
+        }
+        .background-size-position-repeat{
+            background-size: 400px;
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+        .background-origin-border{
+            background-origin: border-box;
+            border: 30px dashed rgb(185, 252, 28);
+        }
+        .background-origin-padding{
+            border: 30px dashed rgb(185, 252, 28);
+            background-origin: padding-box;
+        }
+        .background-origin-content{
+            border: 30px dashed rgb(185, 252, 28);
+            background-origin: content-box;
+        }
+        .background-clip-border{
+            border: 15px dashed rgb(185, 252, 28);
+            background-clip: border-box;
+        }
+        .background-clip-padding{
+            border: 15px dashed rgb(185, 252, 28);
+            background-clip: padding-box;
+        }
+        .background-clip-content{
+            border: 15px dashed rgb(185, 252, 28);
+            background-clip: content-box;
+        }
+        .background-shorthand{
+            width: 1000px;
+            height: 300px;
+            border: 5px solid rgb(185, 252, 28);
+            padding: 20px;
+            background: url(Images/Profile\ 1.png) right top / 400px no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background CSS Properties Practicing</h1>
+    <br>
+    <br>
+    <h2>Background Color</h2>
+    <div class="background-color">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequuntur harum animi, maiores eius voluptatem in cum iusto quisquam voluptas repellat sed consequatur laboriosam saepe dolorum, debitis dolore! Molestias, a et maxime, aliquam tempora repellendus ullam iure exercitationem nam, illo dolorum facilis neque culpa mollitia rem? Quibusdam cupiditate adipisci doloribus.</p>
+    </div>
+    <br>
+    <br>
+    <h2>Backgroun image</h2>
+    <div class="background-image">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis tempore in incidunt suscipit, <br>cupiditate sequi iste, magnam laboriosam ab quam illum totam perspiciatis tempora tenetur quia <br>unde sed a. Non, voluptates fugit amet ut blanditiis eos et explicabo mollitia veritatis. <br>Eum magni ab hic obcaecati porro temporibus soluta pariatur. <br>Dolores illum inventore veritatis consectetur nulla adipisci quis fugiat cupiditate. <br>Sequi architecto facilis mollitia, veniam sapiente reprehenderit sed quaerat vero ex, <br> nesciunt fugiat asperiores perferendis illum? Debitis eligendi blanditiis, <br>sapiente asperiores illo similique repellendus deleniti quas delectus dicta praesentium nemo id <br>accusamus doloremque quae aliquid enim accusantium. Labore, eveniet et.</p>
+    </div>
+    <br>
+    <br>
+    <h2>Backgroun Size, Position and Repeat</h2>
+    <div class="background-image background-size-position-repeat">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis tempore in incidunt suscipit, <br>cupiditate sequi iste, magnam laboriosam ab quam illum totam perspiciatis tempora tenetur quia <br>unde sed a. Non, voluptates fugit amet ut blanditiis eos et explicabo mollitia veritatis. <br>Eum magni ab hic obcaecati porro temporibus soluta pariatur. <br>Dolores illum inventore veritatis consectetur nulla adipisci quis fugiat cupiditate. <br>Sequi architecto facilis mollitia, veniam sapiente reprehenderit sed quaerat vero ex, <br> nesciunt fugiat asperiores perferendis illum? Debitis eligendi blanditiis, <br>sapiente asperiores illo similique repellendus deleniti quas delectus dicta praesentium nemo id <br>accusamus doloremque quae aliquid enim accusantium. Labore, eveniet et.</p>
+    </div>
+    <br>
+    <br>
+    <h2>Background Origin Border Box</h2>
+    <div class="background-origin-border background-image background-size-position-repeat">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis tempore in incidunt suscipit, <br>cupiditate sequi iste, magnam laboriosam ab quam illum totam perspiciatis tempora tenetur quia <br>unde sed a. Non, voluptates fugit amet ut blanditiis eos et explicabo mollitia veritatis. <br>Eum magni ab hic obcaecati porro temporibus soluta pariatur. <br>Dolores illum inventore veritatis consectetur nulla adipisci quis fugiat cupiditate. <br>Sequi architecto facilis mollitia, veniam sapiente reprehenderit sed quaerat vero ex, <br> nesciunt fugiat asperiores perferendis illum? Debitis eligendi blanditiis, <br>sapiente asperiores illo similique repellendus deleniti quas delectus dicta praesentium nemo id <br>accusamus doloremque quae aliquid enim accusantium. Labore, eveniet et.</p>
+    </div>
+    <br>
+    <br>
+    <h2>Background Origin Padding Box</h2>
+    <div class="background-origin-padding background-image background-size-position-repeat">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis tempore in incidunt suscipit, <br>cupiditate sequi iste, magnam laboriosam ab quam illum totam perspiciatis tempora tenetur quia <br>unde sed a. Non, voluptates fugit amet ut blanditiis eos et explicabo mollitia veritatis. <br>Eum magni ab hic obcaecati porro temporibus soluta pariatur. <br>Dolores illum inventore veritatis consectetur nulla adipisci quis fugiat cupiditate. <br>Sequi architecto facilis mollitia, veniam sapiente reprehenderit sed quaerat vero ex, <br> nesciunt fugiat asperiores perferendis illum? Debitis eligendi blanditiis, <br>sapiente asperiores illo similique repellendus deleniti quas delectus dicta praesentium nemo id <br>accusamus doloremque quae aliquid enim accusantium. Labore, eveniet et.</p>
+    </div>
+    <br>
+    <br>
+    <h2>Background Origin Content Box</h2>
+    <div class="background-origin-content background-image background-size-position-repeat">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis tempore in incidunt suscipit, <br>cupiditate sequi iste, magnam laboriosam ab quam illum totam perspiciatis tempora tenetur quia <br>unde sed a. Non, voluptates fugit amet ut blanditiis eos et explicabo mollitia veritatis. <br>Eum magni ab hic obcaecati porro temporibus soluta pariatur. <br>Dolores illum inventore veritatis consectetur nulla adipisci quis fugiat cupiditate. <br>Sequi architecto facilis mollitia, veniam sapiente reprehenderit sed quaerat vero ex, <br> nesciunt fugiat asperiores perferendis illum? Debitis eligendi blanditiis, <br>sapiente asperiores illo similique repellendus deleniti quas delectus dicta praesentium nemo id <br>accusamus doloremque quae aliquid enim accusantium. Labore, eveniet et.</p>
+    </div>
+    <br>
+    <br>
+    <h2>Background Clip Border</h2>
+    <div class="background-color background-clip-border">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequuntur harum animi, maiores eius voluptatem in cum iusto quisquam voluptas repellat sed consequatur laboriosam saepe dolorum, debitis dolore! Molestias, a et maxime, aliquam tempora repellendus ullam iure exercitationem nam, illo dolorum facilis neque culpa mollitia rem? Quibusdam cupiditate adipisci doloribus.</p>
+    </div>
+    <br>
+    <br>
+    <h2>Background Clip Padding</h2>
+    <div class="background-color background-clip-padding">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequuntur harum animi, maiores eius voluptatem in cum iusto quisquam voluptas repellat sed consequatur laboriosam saepe dolorum, debitis dolore! Molestias, a et maxime, aliquam tempora repellendus ullam iure exercitationem nam, illo dolorum facilis neque culpa mollitia rem? Quibusdam cupiditate adipisci doloribus.</p>
+    </div>
+    <br>
+    <br>
+    <h2>Background Clip Content</h2>
+    <div class="background-color background-clip-content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequuntur harum animi, maiores eius voluptatem in cum iusto quisquam voluptas repellat sed consequatur laboriosam saepe dolorum, debitis dolore! Molestias, a et maxime, aliquam tempora repellendus ullam iure exercitationem nam, illo dolorum facilis neque culpa mollitia rem? Quibusdam cupiditate adipisci doloribus.</p>
+    </div>
+    <br>
+    <br>
+    <h2>Background Shorthand (background: url(Images/Profile\ 1.png) right top / 400px no-repeat;)</h2>
+    <div class="background-shorthand">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam corporis tempore in incidunt suscipit, <br>cupiditate sequi iste, magnam laboriosam ab quam illum totam perspiciatis tempora tenetur quia <br>unde sed a. Non, voluptates fugit amet ut blanditiis eos et explicabo mollitia veritatis. <br>Eum magni ab hic obcaecati porro temporibus soluta pariatur. <br>Dolores illum inventore veritatis consectetur nulla adipisci quis fugiat cupiditate. <br>Sequi architecto facilis mollitia, veniam sapiente reprehenderit sed quaerat vero ex, <br> nesciunt fugiat asperiores perferendis illum? Debitis eligendi blanditiis, <br>sapiente asperiores illo similique repellendus deleniti quas delectus dicta praesentium nemo id <br>accusamus doloremque quae aliquid enim accusantium. Labore, eveniet et.</p>
+    </div>
+</body>
+</html>

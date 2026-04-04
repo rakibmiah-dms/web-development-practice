@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation CSS Properties Practicing</title>
+    <style>
+        body{
+            margin: 50px;
+        }
+        .circle-animation{
+            height: 300px;
+            width: 300px;
+            background-color: lightgreen;
+            animation: circleanimation 3s linear .1ms infinite alternate;
+        }
+        @keyframes circleanimation {
+            form {
+                border-radius: 0;
+            }
+            50% {
+                background-color: beige;
+            }
+            to {
+                border-radius: 50%;
+                transform: rotate(45deg) scale(.5);
+                background-color: rgb(17, 60, 97);
+            }
+        }
+        .field{
+            height: 400px;
+            min-width: 1000px;
+            background-color: black;
+            border: 5px solid lightsalmon;
+        }
+        .ball{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            animation: ball-runing 3s linear .1ms infinite alternate;
+        }
+        @keyframes ball-runing {
+            0% {
+                left: 50px;
+                top: 450px;
+            }
+            10% {
+                left: 200px;
+                top: 800px;
+            }
+            20% {
+                left: 350px;
+                top: 450px;
+            }
+            30% {
+                left: 500px;
+                top: 800px;
+            }
+            40% {
+                left: 650px;
+                top: 450px;
+            }
+            50% {
+                left: 800px;
+                top: 800px;
+            }
+            60% {
+                left: 950px;
+                top: 450px;
+            }
+            70% {
+                left: 1100px;
+                top: 800px;
+            }
+            80% {
+                left: 1250px;
+                top: 450px;
+            }
+            90% {
+                left: 1400px;
+                top: 800px;
+            }
+            100% {
+                left: 1550px;
+                top: 450px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation CSS Properties Practicing</h1>
+    <div class="circle-animation">
+        
+    </div>
+    <br>
+    <br>
+    <div class="field">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+.half-width{
+    float: left;
+    width: 38%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#name-color{
+    color: blueviolet;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(30deg, rgb(149, 197, 37), rgb(46, 130, 179));
+    border-radius: 10px;
+    color: white;
+    font-weight: 700px;
+}
+.frist-banner{
+    height: 700px;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-banner{
+    height: 700px;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-center{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.float-latest-work{
+    float: left;
+    width: 30%;
+}
+.float-latest-work img{
+    width: 80%;
+}
+.latest-work{
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+}
+.testimonial {
+  background: url(images/footer-bg.png) no-repeat left top;
+  background-size: cover;   /* cover full area */
+  text-align: center;
+  padding: 80px 20px;
+}
+.testimonial h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.client-info h3 {
+  font-size: 20px;
+  margin: 0;
+}
+.client-info .position {
+  font-size: 14px;
+  color: #555;
+}
+.client-info .quote {
+  font-size: 16px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.contact-box {
+  background: linear-gradient(90deg, #ff4b2b, #ff416c);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px auto 0;   /* auto centers it */
+  max-width: 500px;      /* set your desired width */
+  text-align: center;
+}
+.contact-box p {
+  margin: 0;
+  font-size: 14px;
+}
+.contact-box h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+#lest-part{
+    text-align: center;
+}
