@@ -20,13 +20,13 @@
 }
 .frist-banner{
     height: 700px;
-    background-image: url(images/header-bg.png);
+    background-image: url(images/portfolio-website-two/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .second-banner{
     height: 700px;
-    background-image: url(images/biography-bg.png);
+    background-image: url(images/portfolio-website-two/biography-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -45,11 +45,11 @@
     height: 400px;
     margin-left: 10%;
     margin-top: 5%;
-    background-image: url(images/latest-work-bg.png);
+    background-image: url(images/portfolio-website-two/latest-work-bg.png);
     background-size: cover;
 }
 .testimonial {
-  background: url(images/footer-bg.png) no-repeat left top;
+  background: url(images/portfolio-website-two/footer-bg.png) no-repeat left top;
   background-size: cover;   /* cover full area */
   text-align: center;
   padding: 80px 20px;
